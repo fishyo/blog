@@ -22,6 +22,7 @@ export async function GET() {
         content: await marked.parse(body),
       }))
     ),
+    // biome-ignore lint/style/noUnusedTemplateLiteral: <explanation>
     customData: `<language>en-us</language>`,
   });
 }

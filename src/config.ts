@@ -1,6 +1,10 @@
 import type { Site, SocialObjects } from "./types";
 
-export const SITE: Site = {
+interface CustomSite extends Site {
+  lang: string;
+}
+
+export const SITE: CustomSite = {
   website: "https://cyberfish.cc/", // replace this with your deployed domain
   author: "fishyo",
   profile: "https://github.com/fishyo",
@@ -17,7 +21,7 @@ export const SITE: Site = {
     text: "Suggest Changes",
     appendFilePath: true,
   },
-  lang: "en-us",
+  lang: "en",
 } as const;
 
 export const LOCALE = {

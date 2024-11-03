@@ -31,7 +31,7 @@ draft: false
 
 **订阅管理-过滤动作-何时将文章标记为已读-输入框输入过滤条件**
 
-![示例](/src/assets/media/freshrss%20过滤器/示例.png)
+![示例](/images/freshrss-filter/示例.png)
 
 > 1. intitle表示标题名包含某个关键字，在这里我们需要不包含这个关键字的标题文章自动标记为已读所以前面要加！表示相反的条件：即不符合这个标题的文章都标记已读
 > 2. intitle后面冒号跟关键字
@@ -63,15 +63,15 @@ date:P4D/` (past four days) 日期：P4D/（过去四天）
 !date:P1W
 ```
 
- 以上两种条件可以满足我大部分的需求，也可以参考[官方文档](https://freshrss.github.io/FreshRSS/en/users/10_filter.html#with-the-search-field)创建更多规则。创建规则前可以在FreshRSS的搜索框内验证以下是否有效以防无法看到更新。
+以上两种条件可以满足我大部分的需求，也可以参考[官方文档](https://freshrss.github.io/FreshRSS/en/users/10_filter.html#with-the-search-field)创建更多规则。创建规则前可以在FreshRSS的搜索框内验证以下是否有效以防无法看到更新。
 
 ## 验证前
 
-![验证前](/src/assets/media/freshrss%20过滤器/验证前.png)
+![验证前](/images/freshrss-filter/验证前.png)
 
 ## 验证后
 
-![验证后](/src/assets/media/freshrss%20过滤器/验证后.png)
+![验证后](/images/freshrss-filter/验证后.png)
 
 ---
 

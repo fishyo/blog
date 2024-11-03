@@ -1,12 +1,12 @@
 import type { Site, SocialObjects } from "./types";
 
 export const SITE: Site = {
-  website: "https://astro-paper.pages.dev/", // replace this with your deployed domain
-  author: "Sat Naing",
-  profile: "https://satnaing.dev/",
-  desc: "A minimal, responsive and SEO-friendly Astro blog theme.",
-  title: "fishyo",
-  ogImage: "astropaper-og.jpg",
+  website: "https://cyberfish.cc/", // replace this with your deployed domain
+  author: "fishyo",
+  profile: "https://github.com/fishyo",
+  desc: "My cyber space",
+  title: "cyberfish",
+  ogImage: "assets/og.png",
   lightAndDarkMode: true,
   postPerIndex: 4,
   postPerPage: 3,
@@ -17,7 +17,8 @@ export const SITE: Site = {
     text: "Suggest Changes",
     appendFilePath: true,
   },
-};
+  lang: "en-us",
+} as const;
 
 export const LOCALE = {
   lang: "en", // html lang code. Set this empty and default will be "en"

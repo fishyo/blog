@@ -47,32 +47,33 @@ export const SOCIALS: SocialObjects = [
     name: "Facebook",
     href: "https://github.com/satnaing/astro-paper",
     linkTitle: `${SITE.title} on Facebook`,
-    active: true,
+    active: false,
   },
   {
     name: "Instagram",
     href: "https://github.com/satnaing/astro-paper",
     linkTitle: `${SITE.title} on Instagram`,
-    active: true,
+    active: false,
   },
   {
     name: "LinkedIn",
     href: "https://github.com/satnaing/astro-paper",
     linkTitle: `${SITE.title} on LinkedIn`,
-    active: true,
-  },
-  {
-    name: "Mail",
-    href: "mailto:yourmail@gmail.com",
-    linkTitle: `Send an email to ${SITE.title}`,
     active: false,
   },
   {
     name: "Twitter",
     href: "https://twitter.com/hangsoco2",
     linkTitle: `${SITE.title} on Twitter`,
-    active: false,
+    active: true,
   },
+  {
+    name: "Mail",
+    href: "mailto:coerce7551@duck.com",
+    linkTitle: `Send an email to ${SITE.title}`,
+    active: true,
+  },
+
   {
     name: "Twitch",
     href: "https://github.com/satnaing/astro-paper",

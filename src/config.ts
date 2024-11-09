@@ -9,7 +9,7 @@ export const SITE: CustomSite = {
   author: "fishyo",
   profile: "https://github.com/fishyo",
   desc: "My cyber space",
-  title: "cyberfish",
+  title: "Cyberfish",
   ogImage: "assets/og.png",
   lightAndDarkMode: true,
   postPerIndex: 4,
@@ -18,7 +18,7 @@ export const SITE: CustomSite = {
   showArchives: true,
   editPost: {
     url: "https://github.com/satnaing/astro-paper/edit/main/src/content/blog",
-    text: "Suggest Changes",
+    text: "fishyo",
     appendFilePath: true,
   },
   lang: "en",

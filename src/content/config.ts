@@ -1,6 +1,7 @@
 import { SITE } from "@config";
 import { glob } from "astro/loaders";
 import { defineCollection, z } from "astro:content";
+import type { GiscusProps } from "@giscus/react";
 
 const blog = defineCollection({
   type: "content_layer",
@@ -34,3 +35,15 @@ const blog = defineCollection({
 });
 
 export const collections = { blog };
+export const GISCUS: GiscusProps = {
+  repo: "fishyo/blog",
+  repoId: "R_kgDONGc17Q",
+  category: "Announcements",
+  categoryId: "DIC_kwDONGc17c4CkHse",
+  mapping: "title",
+  reactionsEnabled: "0",
+  emitMetadata: "0",
+  inputPosition: "bottom",
+  lang: "en",
+  loading: "lazy",
+};

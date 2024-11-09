@@ -1,4 +1,5 @@
 import type { Site, SocialObjects } from "./types";
+import type { GiscusProps } from "@giscus/react";
 
 interface CustomSite extends Site {
   lang: string;
@@ -159,3 +160,17 @@ export const SOCIALS: SocialObjects = [
     active: false,
   },
 ];
+
+// GISCUS 评论系统配置
+export const GISCUS: GiscusProps = {
+  repo: "fishyo/blog",
+  repoId: "R_kgDONGc17Q",
+  category: "Announcements",
+  categoryId: "DIC_kwDONGc17c4CkHse",
+  mapping: "title",
+  reactionsEnabled: "1",
+  emitMetadata: "0",
+  inputPosition: "top",
+  lang: "zh-CN",
+  loading: "lazy",
+};

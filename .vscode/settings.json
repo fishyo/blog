@@ -1,0 +1,12 @@
+{
+    "files.associations": {
+        "*.md": "markdown"
+    },
+    "[markdown]": {
+        "editor.quickSuggestions": {
+            "other": true,
+            "comments": true,
+            "strings": true
+        }
+    }
+} 

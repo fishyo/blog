@@ -33,6 +33,9 @@ export default defineConfig({
     },
   },
   vite: {
+    define: {
+      'process.env.TZ': JSON.stringify('Asia/Shanghai'),  // 设置为中国时区
+    },
     optimizeDeps: {
       exclude: ["@resvg/resvg-js"],
     },
